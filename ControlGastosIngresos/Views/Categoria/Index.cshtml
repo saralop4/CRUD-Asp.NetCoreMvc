@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Lista de Categorias</h1>
+<h1>Index</h1>
 
 <p>
-    <a class="btn btn-success"  asp-action="Create">Crear Nueva</a>
+    <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead class="table-dark">
@@ -32,22 +32,15 @@
                 @Html.DisplayFor(modelItem => item.NombreCategoria)
             </td>
             <td>
-                    @if (item.Tipo == "IN")
-                    {
-                        <p class="btn btn-outline-success">Ingreso</p>
-                    }
-                    else
-                    {
-                        <p class="btn btn-outline-danger">Gasto</p>
-                    }
-                </td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
-                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }

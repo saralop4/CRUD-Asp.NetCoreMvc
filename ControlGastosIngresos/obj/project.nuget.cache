@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBr2fBY2y0XCNS4XoYI5VZU1Onhr5gXFHXdsQUdGbmwVI4vrLbTeLFdaObuVGQN7fVJ8qVjMnmmiFLzMH/GPMg==",
+  "dgSpecHash": "aPbQlD1jPs8pvYG3QVSk6d39of/6bBETZ+U7FJjEfHRoy2Xr4eys2rbgmz0+P+BYhaaamwfMsJjNfPSXp5OF6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saray\\OneDrive\\Documentos\\Visual Studio 2022\\ControlGastosIngresos\\ControlGastosIngresos.csproj",
+  "projectFilePath": "C:\\Users\\saray\\Documents\\CRUD-Asp.NetCoreMvc\\ControlGastosIngresos\\ControlGastosIngresos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saray\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\saray\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

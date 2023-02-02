@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ControlGastosIngresos.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230202013620_TablaCategorias")]
-    partial class TablaCategorias
+    [Migration("20230202203229_TablaCategoriaDb")]
+    partial class TablaCategoriaDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

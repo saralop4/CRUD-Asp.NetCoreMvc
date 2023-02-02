@@ -1,4 +1,5 @@
-﻿using ControlGastosIngresos.Models;
+﻿using ControlGastosIngresos.Controllers;
+using ControlGastosIngresos.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ControlGastosIngresos.Data
@@ -11,5 +12,7 @@ namespace ControlGastosIngresos.Data
                
         }
         public DbSet<Categoria> Categorias { get; set; }
+       // public DbSet<ControlGastosIngresos.Models.GastoIngreso> GastoIngreso { get; set; }
+        public DbSet<GastoIngreso> GastoIngresos { get; set; }
     }
 }

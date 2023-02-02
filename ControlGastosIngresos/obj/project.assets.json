@@ -10141,11 +10141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\saray\\OneDrive\\Documentos\\Visual Studio 2022\\ControlGastosIngresos\\ControlGastosIngresos.csproj",
+      "projectUniqueName": "C:\\Users\\saray\\Documents\\CRUD-Asp.NetCoreMvc\\ControlGastosIngresos\\ControlGastosIngresos.csproj",
       "projectName": "ControlGastosIngresos",
-      "projectPath": "C:\\Users\\saray\\OneDrive\\Documentos\\Visual Studio 2022\\ControlGastosIngresos\\ControlGastosIngresos.csproj",
+      "projectPath": "C:\\Users\\saray\\Documents\\CRUD-Asp.NetCoreMvc\\ControlGastosIngresos\\ControlGastosIngresos.csproj",
       "packagesPath": "C:\\Users\\saray\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saray\\OneDrive\\Documentos\\Visual Studio 2022\\ControlGastosIngresos\\obj\\",
+      "outputPath": "C:\\Users\\saray\\Documents\\CRUD-Asp.NetCoreMvc\\ControlGastosIngresos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saray\\AppData\\Roaming\\NuGet\\NuGet.Config",

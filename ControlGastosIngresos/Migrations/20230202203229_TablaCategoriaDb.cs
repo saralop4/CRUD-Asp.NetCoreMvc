@@ -4,7 +4,7 @@
 
 namespace ControlGastosIngresos.Migrations
 {
-    public partial class TablaCategorias : Migration
+    public partial class TablaCategoriaDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
